@@ -1,0 +1,27 @@
+<html>
+<head>
+	<link rel="stylesheet" href="chat.css"></link>
+	<link rel="stylesheet" href="chatroom.css"></link>
+	
+	<script type="text/javascript" src="jquery.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="client.js"></script>
+
+</head>
+<body>
+	<div id="sign_in">
+		Choose a username: <input type="text" id="username"/><br>
+		<input type="submit" id="submitme" value="Join" onclick="join();"/>
+	</div>
+	
+	<div id="chat_box">
+		<div id="messages"></div>
+		<div id="users">
+			Currently Online<hr>
+			<ul id='results'></ul>
+		</div>
+		Message: <input type='text' id='message'/><br>
+		<input type='submit' value='Leave' onclick='leave(username);'/>
+	</div>
+</body>
+</html>

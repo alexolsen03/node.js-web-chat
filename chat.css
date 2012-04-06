@@ -1,0 +1,35 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	width: 100%;
+	background-image: url('wood_pattern.png');
+}
+
+#sign_in{
+	display: inline-block;
+	background: #e9e9e9;
+	padding: 20px;
+	margin: 100px 100px;
+	font: 24pt Verdana;
+	border: 1pt solid #424242;
+	border-radius: 7px;
+	box-shadow: -2px 2px 5px #000;
+}
+
+#sign_in input[type=text]{
+	font-size: 24pt;
+}
+
+#sign_in input[type=submit]{
+	margin-top: 20px;
+	padding: 10px;
+	width: 100px;
+	float: right;
+	font-size: 14pt;
+	background: #424242;
+	color: white;
+	border-radius: 5px;
+}
